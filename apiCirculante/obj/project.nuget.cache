@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "9UDdTuwT/RA=",
+  "success": true,
+  "projectFilePath": "C:\\projetos\\valesystem\\awstools\\apiCirculante\\apiCirculante.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.7.3\\amazon.lambda.apigatewayevents.2.7.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.2.0\\amazon.lambda.applicationloadbalancerevents.2.2.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\9.2.1\\amazon.lambda.aspnetcoreserver.9.2.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\amazon.lambda.core\\2.8.0\\amazon.lambda.core.2.8.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\4.1.1\\amazon.lambda.logging.aspnetcore.4.1.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.4.4\\amazon.lambda.serialization.systemtextjson.2.4.4.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\npgsql\\10.0.2\\npgsql.10.0.2.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\10.0.7\\microsoft.netcore.app.runtime.linux-x64.10.0.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\10.0.7\\microsoft.aspnetcore.app.runtime.linux-x64.10.0.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\10.0.7\\microsoft.netcore.app.crossgen2.win-x64.10.0.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\10.0.7\\microsoft.netcore.app.host.linux-x64.10.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
