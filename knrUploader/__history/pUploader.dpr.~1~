@@ -1,0 +1,14 @@
+program pUploader;
+
+uses
+  Vcl.Forms,
+  uuploader in '..\uuploader.pas' {fouploader};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(Tfouploader, fouploader);
+  Application.Run;
+end.

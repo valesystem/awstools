@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/05/01 17:13:37.000.381,=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 17:16:11.000.925,C:\projetos\valesystem\awstools\uuploader.pas=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 17:16:11.000.925,C:\projetos\valesystem\awstools\uuploader.dfm=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2026/05/01 17:16:44.000.057,C:\projetos\valesystem\awstools\knrUploader\pUploader.dproj=C:\Users\Administrator\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/05/01 17:17:04.000.101,C:\projetos\valesystem\awstools\knrUploader\uuploader.dfm=C:\projetos\valesystem\awstools\uuploader.dfm</Transaction>
+    <Transaction>2026/05/01 17:17:04.000.101,C:\projetos\valesystem\awstools\knrUploader\uuploader.pas=C:\projetos\valesystem\awstools\uuploader.pas</Transaction>
+    <Transaction>2026/05/01 17:17:32.000.751,=C:\projetos\valesystem\awstools\knrUploader\Unit1.pas</Transaction>
+    <Transaction>2026/05/01 17:17:42.000.846,C:\projetos\valesystem\awstools\knrUploader\utabelas.dfm=C:\projetos\valesystem\awstools\knrUploader\Unit1.dfm</Transaction>
+    <Transaction>2026/05/01 17:17:42.000.846,C:\projetos\valesystem\awstools\knrUploader\utabelas.pas=C:\projetos\valesystem\awstools\knrUploader\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

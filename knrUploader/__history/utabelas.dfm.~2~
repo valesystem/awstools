@@ -1,0 +1,28 @@
+object DataModule1: TDataModule1
+  Height = 435
+  Width = 650
+  object fdcnx: TFDConnection
+    Params.Strings = (
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'Database=C:\Valesystem\dados\anchieta\VSGASP.FDB'
+      'DriverID=FB')
+    LoginPrompt = False
+    Left = 32
+    Top = 24
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 128
+    Top = 24
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 256
+    Top = 24
+  end
+  object fdKnr: TFDQuery
+    Connection = fdcnx
+    Left = 32
+    Top = 120
+  end
+end

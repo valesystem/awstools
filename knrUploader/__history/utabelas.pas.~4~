@@ -1,0 +1,50 @@
+unit utabelas;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.FB,
+  FireDAC.Phys.FBDef, FireDAC.VCLUI.Wait, FireDAC.Stan.Param, FireDAC.DatS,
+  FireDAC.DApt.Intf, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client, FireDAC.Phys.IBBase, FireDAC.Comp.UI;
+
+type
+  Tdm = class(TDataModule)
+    fdcnx: TFDConnection;
+    FDGUIxWaitCursor1: TFDGUIxWaitCursor;
+    FDPhysFBDriverLink1: TFDPhysFBDriverLink;
+    fdKnr: TFDQuery;
+  private
+
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure SelecionarKnr(opcao: integer; dataInicial: tdatetime);
+  end;
+
+var
+  dm: Tdm;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure tdm.SelecionarKnr (opcao:integer ; dataInicial:tdatetime);
+var cmdSql : string ;
+begin
+   cmdSql := 'select * from knr';
+   if (opcao=1) then
+   begin
+      cmdSql := cmdSql + ' where (status<=4) ';
+   end;
+
+   dm.fdKnr.Close;
+   dm.fdKnr.Open(cmdSql);
+
+end;
+
+end.
